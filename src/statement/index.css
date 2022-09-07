@@ -1,4 +1,36 @@
 .statement-root {
   background: rgba(17, 17, 17, 1);
   height: 100vh;
+  color: white;
+  font-family: Poppins;
+}
+
+.statement-main {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  height: 100%;
+}
+
+.statement-left {
+  width: 50%;
+  margin-top: 100px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.statement-fact {
+  font-size: 45px;
+  line-height: 40px;
+}
+
+.statement-fact font {
+  color: rgba(222, 161, 3, 1);
+  letter-spacing: 2px;
+}
+
+.statement-note {
+  font-size: 14px;
 }
