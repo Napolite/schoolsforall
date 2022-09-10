@@ -1,0 +1,38 @@
+.mission-root {
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.mission-container {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: 20%;
+}
+
+.mission-header {
+  font-size: 22px;
+  color: rgba(82, 82, 82, 1);
+}
+
+.mission-main {
+  font-size: 48px;
+  width: 80%;
+  margin: auto;
+}
+
+.mission-main font {
+  color: rgba(222, 161, 3, 1);
+}
+
+.mission-note {
+  width: 60%;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 300;
+  margin: auto;
+}

@@ -1,5 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./index.css";
+import v1 from "../assets/vectors/Vector (2).png";
+import v2 from "../assets/vectors/Vector (3).png";
+import v3 from "../assets/vectors/Vector (4).png";
 
 const Statement = () => {
   return (
@@ -22,7 +26,33 @@ const Statement = () => {
             <button>Donate</button>
           </div>
         </div>
-        <div></div>
+        <div className="statement-right">
+          <div className="spindle">
+            <div>
+              <div>
+                <div>
+                  <div>
+                    <div>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="statement-info">
+            <img src={v3} />
+            <div>70 million</div>
+          </div>
+          <div className="statement-info">
+            <img src={v1} />
+            <div>102 million</div>
+          </div>
+          <div className="statement-info">
+            <img src={v2} />
+            <div>30.2 million</div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import "./App.css";
 import Sponsors from "./brands";
 import Home from "./main";
+import Mission from "./mission";
 import Statement from "./statement";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       </div>
       <div>
         <Statement />
+      </div>
+      <div>
+        <Mission />
       </div>
     </div>
   );
