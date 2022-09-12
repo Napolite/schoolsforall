@@ -1,9 +1,11 @@
 import "./App.css";
 import Sponsors from "./brands";
 import Dictates from "./dictates";
+import Footer from "./footer";
 import Home from "./main";
 import Mission from "./mission";
 import Statement from "./statement";
+import Testimonials from "./testinmonials";
 
 function App() {
   return (
@@ -22,6 +24,12 @@ function App() {
       </div>
       <div>
         <Dictates />
+      </div>
+      <div>
+        <Testimonials />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

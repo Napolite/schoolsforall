@@ -1,0 +1,131 @@
+.testimonials-root {
+  height: auto;
+  font-family: poppins;
+}
+
+.testimonial-container {
+  padding-top: 50px;
+  height: 100vh;
+  background-color: rgba(218, 217, 217, 0.27);
+  text-align: center;
+}
+
+.header {
+  font-size: 22px;
+}
+
+.header-note {
+  font-size: 35px;
+}
+
+.header-note font {
+  color: rgba(222, 161, 3, 1);
+}
+
+.map {
+  width: 350px;
+  height: 370px;
+}
+
+.map-data {
+  width: 180px;
+  background: rgba(242, 242, 242, 0.68);
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
+  height: 53px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+}
+
+.map-data:nth-child(2) {
+  position: relative;
+  top: -280px;
+  left: 370px;
+}
+
+.map-data:nth-child(3) {
+  position: relative;
+  top: -280px;
+  left: 750px;
+}
+
+.map-data:nth-child(4) {
+  position: relative;
+  top: -180px;
+  left: 550px;
+}
+
+.map-data img {
+  height: 38px;
+  width: 38px;
+}
+
+.footer-data {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 1012px;
+  height: 78px;
+  background: rgba(17, 17, 17, 0.8);
+  padding: 0px 30px;
+  margin-top: -120px;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.footer-data > div {
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.7);
+  align-items: center;
+}
+
+.footer-data > div > p:nth-child(1) {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.footer-data > div > p:nth-child(2) {
+  width: 180px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.last-note {
+  width: 80%;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.last-note > div:nth-child(1) {
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 70px;
+}
+
+.last-note > div:nth-child(2) {
+  width: 430px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-note button {
+  width: 203px;
+  height: 52px;
+  font-size: 18px;
+}
+
+.last-note button:nth-child(1) {
+  background-color: rgba(243, 243, 243, 1);
+  border: 1px solid black;
+}
+
+.last-note button:nth-child(2) {
+  background-color: rgba(222, 161, 3, 1);
+  border: none;
+  color: white;
+}

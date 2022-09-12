@@ -1,0 +1,99 @@
+.footer-root {
+  height: 83vh;
+  background: rgba(17, 17, 17, 1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right {
+  width: 40%;
+  margin-left: 80px;
+}
+
+.footer-right > div {
+  margin: 40px 0px;
+}
+
+.footer-logo {
+  font-size: 30px;
+  color: rgba(229, 229, 229, 1);
+}
+
+.footer-logo font {
+  color: rgba(222, 161, 3, 1);
+}
+
+.footer-slogan {
+  font-size: 14px;
+  width: 450px;
+  color: rgba(229, 229, 229, 1);
+}
+.footer-images {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-images img {
+  width: 28px;
+  height: 26.9px;
+}
+
+.footer-details {
+  color: rgba(229, 229, 229, 1);
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+}
+
+.footer-details > div > div {
+  margin: 8px 0px;
+}
+
+.footer-left {
+  color: rgba(229, 229, 229, 1);
+  margin-right: 40px;
+}
+
+.send-message {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.send-message-note {
+  font-size: 14px;
+  width: 320px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 372px;
+  justify-content: space-around;
+}
+
+form input {
+  height: 46px;
+  width: 464px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 5px;
+  border: none;
+}
+
+form input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  padding-left: 20px;
+  font-style: italic;
+}
+
+form input:nth-child(3) {
+  height: 119px;
+}
+
+form input:nth-child(4) {
+  height: 56px;
+  border: none;
+  background-color: rgba(222, 161, 3, 1);
+}
