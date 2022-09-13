@@ -3,6 +3,7 @@
   background: rgba(17, 17, 17, 1);
   display: flex;
   justify-content: space-between;
+  color: rgba(242, 242, 242, 0.8);
 }
 
 .footer-right {
@@ -17,6 +18,8 @@
 .footer-logo {
   font-size: 30px;
   color: rgba(229, 229, 229, 1);
+  font-family: hepta;
+  font-weight: 600;
 }
 
 .footer-logo font {
@@ -43,6 +46,11 @@
   display: flex;
   width: 280px;
   justify-content: space-between;
+}
+
+.footer-details-head {
+  font-family: mserrat;
+  font-size: 20px;
 }
 
 .footer-details > div > div {
@@ -90,6 +98,11 @@ form input::placeholder {
 
 form input:nth-child(3) {
   height: 119px;
+}
+
+form input:nth-child(3)::placeholder {
+  position: relative;
+  top: -30px;
 }
 
 form input:nth-child(4) {

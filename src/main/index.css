@@ -1,6 +1,7 @@
 .home-root {
   height: auto;
   background-color: #111111;
+  font-family: Poppins;
 }
 
 .nav-bar {
@@ -18,12 +19,14 @@
 }
 .nav-menu {
   display: flex;
+  font-family: mserrat;
 }
 
 .home-logo {
   font-size: 35px;
   font-weight: 600;
   line-height: 70px;
+  font-family: hepta;
 }
 
 .home-logo font {
@@ -36,6 +39,8 @@
   width: 203px;
   border: none;
   border-radius: 5px;
+  color: white;
+  font-size: 18px;
 }
 
 .home-body {

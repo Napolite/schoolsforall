@@ -17,6 +17,16 @@ code {
   src: url("./assets/fonts/Poppins-Regular.ttf");
 }
 
+@font-face {
+  font-family: mserrat;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: hepta;
+  src: url("./assets/fonts/HeptaSlab-Regular.ttf");
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

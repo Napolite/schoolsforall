@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="footer-details">
           <div>
-            <div>About us</div>
+            <div className="footer-details-head">About us</div>
             <div>About</div>
             <div>Missions</div>
             <div>Regions</div>
@@ -32,7 +32,7 @@ const Footer = () => {
             <div>Donate</div>
           </div>
           <div>
-            <div>Contact US</div>
+            <div className="footer-details-head">Contact US</div>
             <div>Home</div>
             <div>Schools</div>
             <div>Regions</div>
