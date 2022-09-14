@@ -1,4 +1,8 @@
+import { useEffect } from "react";
 import "./App.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Sponsors from "./brands";
 import Dictates from "./dictates";
 import Footer from "./footer";
@@ -8,27 +12,30 @@ import Statement from "./statement";
 import Testimonials from "./testinmonials";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <div className="App">
-      <div>
+      <div className="componen">
         <Home />
       </div>
-      <div>
+      <div className="componen" data-aos="fade-up" data-aos-duration="2000">
         <Sponsors />
       </div>
-      <div>
+      <div className="componen" data-aos="fade-up" data-aos-duration="2000">
         <Statement />
       </div>
-      <div>
+      <div className="componen" data-aos="fade-up" data-aos-duration="2000">
         <Mission />
       </div>
-      <div>
+      <div className="componen" data-aos="fade-up" data-aos-duration="2000">
         <Dictates />
       </div>
-      <div>
+      <div className="componen" data-aos="fade-up" data-aos-duration="2000">
         <Testimonials />
       </div>
-      <div>
+      <div className="componen" data-aos="fade-up" data-aos-duration="2000">
         <Footer />
       </div>
     </div>

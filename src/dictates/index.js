@@ -1,5 +1,7 @@
 import React from "react";
 import "./index.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import education from "../assets/images/image 3.png";
 import Food from "../assets/images/image 4.png";
@@ -12,7 +14,11 @@ const Dictates = () => {
   return (
     <div>
       <div>
-        <div className="dictate-section">
+        <div
+          className="dictate-section"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="dictate-section-image">
             <img src={educationframe} className="dictates-frame" alt="edu" />{" "}
             <img src={education} className="dictates-image" alt="" />
@@ -39,7 +45,11 @@ const Dictates = () => {
             </div>
           </div>
         </div>
-        <div className="dictate-section">
+        <div
+          className="dictate-section"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="dictate-section-image">
             <img src={foodFrame} className="dictates-frame" alt="edu" />{" "}
             <img src={Food} className="dictates-image" alt="" />
@@ -63,7 +73,11 @@ const Dictates = () => {
             </div>
           </div>
         </div>
-        <div className="dictate-section">
+        <div
+          className="dictate-section"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="dictate-section-image">
             <img src={clothingframe} className="dictates-frame" alt="edu" />
             <img src={clothing} className="dictates-image" alt="" />
